@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4-4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Modak&family=Dokdo&family=Black+And+White+Picture&display=swap');
+        /*
+            폰트 속성
+             1) font-size
+             1) font-family
+             1) font-weight
+             1) font
+             1) line-height
+        
+        */
+        .box > div {}
+
+        .box1 > div:nth-child(1) {font-size: 16px;} /*기본 출력 값*/
+        .box1 > div:nth-child(2) {font-size: 32px;}
+        .box1 > div:nth-child(3) {font-size: 200%;} /*텍스트 %는 잘 안씀*/
+        .box1 > div:nth-child(4) {font-size: 2em;}
+        .box1 > div:nth-child(5) {font-size: 2rem;} /*2em과 같다고 보면 된다*/
+
+        .box2 > div {font-size: 36px;}
+        .box2 > div:nth-child(1) {font-family: 'HY견명조';} /*기본 Gothic*/
+        .box2 > div:nth-child(2) {font-family: 'Yu Mincho';}
+        .box2 > div:nth-child(3) {font-family: 'Modak', cursive;} /*반드시 @import문이 스타일 맨 위에 있어야 한다.*/
+        .box2 > div:nth-child(4) {font-family: 'Dokdo', cursive;}
+        .box2 > div:nth-child(5) {font-family: 'Black And White Picture', sans-serif;}
+
+        .box3 > div:nth-child(1) {font-weight: 100;}
+        .box3 > div:nth-child(2) {font-weight: 200;}
+        .box3 > div:nth-child(3) {font-weight: 400;}
+        .box3 > div:nth-child(4) {font-weight: bold;}
+        .box3 > div:nth-child(5) {font-weight: bolder;}
+
+        .box4 > div:nth-child(1) {font: bold 16px 'Dokdo', cursive;}
+        .box4 > div:nth-child(2) {font: bold 32px '돋음';}
+        .box4 > div:nth-child(3) {font: bold 2em '돋음';}
+        .box4 > div:nth-child(4) {font: bold 32px 'Black And White Picture', sans-serif;}
+        .box4 > div:nth-child(5) {font: bold 32px 'Modak', cursive;}
+
+        .box5 > p {
+            line-height: 32px;
+        }
+        .box5 > div {
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            line-height: 100px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>4.CSS3 폰트 속성</h3>
+
+    <h4>1)font-size</h4>
+    <div class="box box1">
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+    </div>
+
+    <h4>2)font-family</h4>
+    <div class="box box2">
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+    </div>
+
+    <h4>3)font-weight</h4>
+    <div class="box box3">
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+    </div>
+
+    <h4>4)font</h4>
+    <div class="box box4">
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+        <div>Hello, 안녕하세요.</div>
+    </div>
+
+    <h4>5)line-height</h4>
+    <div class="box box5">
+        <p>
+            동해물과 백두산이 마르고 닳도록<br/>
+            하나님이 보우하사 우리나라 만세<br/>
+            무궁화 산천리 화려강산<br/>
+            대한사람 대한으로 길이 보전하세.
+        </p>
+
+        <div>텍스트 수직정렬</div>
+    </div>
+    
+</body>
+</html>
