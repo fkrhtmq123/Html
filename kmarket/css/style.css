@@ -402,6 +402,855 @@ main > aside > article > ol > li .dis_price > ins {
     text-decoration: none;
 }
 
+/* list페이지 */
+main > #list > section {
+    border-top: 0;
+}
+main > #list {
+    padding: 20px;
+}
+main > #list > nav {
+    border-bottom: 1px solid black;
+}
+main > #list > nav > h1 {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0 0 9px;
+}
+main > #list > nav > p {
+    float: right;
+    margin-top: 5px;
+}
+main > #list > nav > p > span {
+    font-weight: bold;
+}
+
+main > #list > .sort {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dfdfdf;
+    overflow: hidden;
+}
+main > #list > .sort > li {
+    float: left;
+    position: relative;
+    padding: 15px 0;
+}
+main > #list > .sort > li > a {
+    padding: 0 10px;
+    border-right: 1px solid #ddd;
+}
+
+main > #list > section {}
+main > #list > section > article {
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #ececec;
+}
+main > #list > section > article > ul {
+    height: 100%;
+    overflow: hidden;
+}
+main > #list > section > article > ul > li {
+    position: relative;
+    float: left;
+    height: 100%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+main > #list > section > article > ul > li:nth-of-type(1) {
+    width: 20%;
+    padding: 0;
+}
+main > #list > section > article > ul > li:nth-of-type(1) > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+main > #list > section > article > ul > li:nth-of-type(1) img {
+    width: 100%;
+}
+main > #list > section > article > ul > li:nth-of-type(2) {
+    width: 40%;
+}
+main > #list > section > article > ul > li:nth-of-type(2) > h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+main > #list > section > article > ul > li:nth-of-type(2) > p > a:hover {
+    text-decoration: underline;
+}
+main > #list > section > article > ul .freeshipping {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: text-bottom;
+    width: 55px;
+    height: 13px;
+    background: url('../img/ico_freeshipping.gif') no-repeat;
+}
+main > #list > section > article > ul > li:nth-of-type(3) {
+    width: 20%;
+}
+main > #list > section > article > ul > li:nth-of-type(4) {
+    position: relative;
+    width: 20%;
+}
+main > #list > section > article > ul > li:nth-of-type(4) > h4 {
+    margin-bottom: 6px;
+}
+.badge {
+    font-size: 0;
+    width: 80px; height: 19px;
+    background-repeat: no-repeat;
+}
+h5.badge.power {
+    background-image: url(../img/ico_power_dealer.gif);
+}
+h5.badge.great {
+    background-image: url(../img/ico_great_seller.gif);
+}
+h5.badge.power.great {
+    background: url(../img/ico_power_dealer.gif) no-repeat, 
+    url(../img/ico_great_seller.gif) no-repeat 63px;
+    width: 160px;
+}
+main > #list > section > article > ul > li:nth-of-type(4) > h6 {
+    position: absolute;
+    left: 10px; bottom: 30px;
+    font-size: 11px;
+    background-image: url(../img/rating_star.png);
+    background-repeat: no-repeat;
+    background-position: 36px 0px;
+    background-size: auto 100%;
+}
+h6.rating.star1 {
+    width: 50px;
+}
+h6.rating.star2 {
+    width: 64px;
+}
+h6.rating.star3 {
+    width: 78px;
+}
+h6.rating.star4 {
+    width: 91px;
+}
+h6.rating.star5 {
+    width: 106px;
+}
+
+main > #list > .paging {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+main > #list > .paging > .prev {}
+main > #list > .paging > .prev > a:hover {
+    text-decoration: underline;
+}
+main > #list > .paging > .num {}
+main > #list > .paging > .num > a {
+    display: inline-block;
+    min-width: 14px;
+    margin: 0 2px;
+    padding: 8px 9px;
+    border: 1px solid #c4c4c4;
+}
+main > #list > .paging > .num > a:hover {
+    border-color: black;
+}
+main > #list > .paging > .num > a.on {
+    color: #fe434c;
+    font-weight: bold;
+}
+main > #list > .paging > .next {}
+main > #list > .paging > .next > a:hover {
+    text-decoration: underline;
+}
+/* view페이지 : 제품 상제 페이지 */
+#view {
+    padding: 20px;
+}
+#view > section {
+    height: auto;
+}
+#view > nav {
+    width: 100%;
+    height: 36px;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+}
+#view > nav > h1 {
+    float: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+#view > nav > p {
+    float: right;
+    margin-top: 10px;
+}
+#view > nav > p > span {}
+#view > nav > p > strong {font-weight: bold;}
+#view .info {
+    width: 100%;
+    height: 100%;
+}
+#view .info > div {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#view .info > .img {}
+#view .info > .img > img {
+    width: 100%;
+}
+#view .info > .summary *{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#view .info > .summary > nav {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#view .info > .summary > nav > h1 {
+    float: left;
+    color: #1e2732;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#view .info > .summary > nav > h2 {
+    float: right;
+    color: #777;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#view .info > div > p {
+    font-size: 18px;
+    color: #474747;
+    line-height: 36px;
+}
+#view .info > .summary .rating > a {
+    color: #346aff;
+    text-decoration: underline;
+}
+h5.rating.star4 {
+    background-position: 0 -160px;
+}
+h5.rating {
+    width: 150px;
+    height: 20px;
+    font-size: 0;
+    background-image: url(../img/ico_rating_star.png);
+    background-repeat: no-repeat;
+    text-indent: 86px;
+}
+#view .info > .summary .org_price > del {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #aaa;
+}
+#view .info > .summary .org_price > del::after {
+    content: "원"
+}
+#view .info > .summary .org_price > span {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #eb000a;
+    font-size: 16px;
+}
+#view .info > .summary .org_price > span::after {
+    content: "↓";
+}
+#view .info > .summary .dis_price > ins {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#view .info > .summary .dis_price > ins::after {
+    content: "원";
+}
+#view .info > .summary > nav > .delivery {
+    color: #2e8de5;
+    font-size: 16px;
+}
+#view .info > .summary > nav > .arrival {
+    font-size: 14px;
+}
+#view .info > .summary .desc {
+    display: block;
+    color: #aaa;
+}
+#view .info > .summary > nav > .card > i {
+    display: inline-block;
+    width: 30px;
+    height: 18px;
+    top: 4px;
+    background-image: url(../img/sp_icon.png);
+    font-size: 0;
+    vertical-align: text-top;
+    margin-right: 2px;
+}
+#view .info > .summary > nav > .card.free > i {
+    background-position: -126px 0;
+}
+#view .info > .summary > nav > .card.add > i {
+    background-position: -51px -21px;
+}
+#view .info > .summary .origin {
+    font-size: 16px;
+}
+#view .info > .summary > img {
+    width: 100%;
+}
+#view .info > .summary .total {
+    margin-top: 16px;
+}
+#view .info > .summary .total > span {
+    float: right;
+    line-height: 38px;
+    font-size: 24px;
+    font-weight: bold;
+}
+#view .info > .summary .total > span::after {
+    content: "원";
+}
+#view .info > .summary .total > em {
+    float: right;
+    width: 100px;
+    height: 22px;
+    font-size: 16px;
+    color: #5e636d;
+    margin-top: 10px;
+}
+#view .detail {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+#view .detail > nav {
+    border-bottom: 1px solid #a4a9b0;
+    margin-bottom: 12px;
+    padding: 6px 0;
+    overflow: hidden;
+}
+#view .detail > nav > h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #1e2732;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#view .detail > img {}
+#view .notice {
+    width: 100%;
+    height: auto;
+}
+#view .notice > nav {
+    border-bottom: 1px solid #a4a9b0;
+    padding: 6px 0;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+#view .notice > nav > h1 {
+    float: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #1e2732;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#view .notice > nav > p {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #777;
+    margin: 6px 0 0 6px;
+}
+#view .notice > table {
+    width: 100%;
+}
+#view .notice > table tr > td {
+    padding: 5px 0 6px 21px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    color: #777;
+}
+#view .notice > table tr > td:nth-child(1) {
+    width: 20%;
+    color: #222;
+}
+#view .notice > table:nth-of-type(2) {
+    border-top: 1px solid #ececec;
+}
+#view .notice > .notice {
+    height: auto;
+    margin: 20px 0;
+    padding: 21px 26px 20px 19px;
+    line-height: 20px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #757c8a;
+    background: #fafafa;
+    border-radius: 2px;
+    box-sizing: border-box;
+    white-space: unset;
+}
+#view .review {
+    width: 100%;
+    height: auto;
+}
+#view .review * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#view .review > nav {
+    border-bottom: 1px solid #a4a9b0;
+    padding: 6px 0;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+#view .review > nav > h1 {
+    float: left;
+    color: #1e2732;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#view .review > ul {
+    padding: 10px;
+    box-sizing: border-box;
+}
+#view .review > ul > li {
+    padding-top: 16px;
+    border-bottom: 1px solid #ececec;
+    box-sizing: border-box;
+}
+#view .review > ul > li > div {
+    overflow: hidden;
+}
+#view .review > ul > li > div > h5 {
+    float: left;
+}
+#view .review > ul > li > div > span {
+    float: right;
+    color: #555;
+}
+#view .review > ul > li > h3 {
+    color: #555;
+    margin-top: 6px;
+}
+#view .review > ul > li > p {
+    width: 100%;
+    height: 60px;
+    color: #555;
+    font-size: 13px;
+    line-height: 19px;
+    margin-top: 10px;
+    white-space: unset;
+}
+
+#view .review > .paging {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+#view .review > .paging > .prev {}
+#view .review > .paging > .prev > a:hover {
+    text-decoration: underline;
+}
+#view .review > .paging > .num {}
+#view .review > .paging > .num > a {
+    display: inline-block;
+    min-width: 14px;
+    margin: 0 2px;
+    padding: 8px 9px;
+    border: 1px solid #c4c4c4;
+}
+#view .review > .paging > .num > a:hover {
+    border-color: black;
+}
+#view .review > .paging > .num > a.on {
+    color: #fe434c;
+    font-weight: bold;
+}
+#view .review > .paging > .next {}
+#view .review > .paging > .next > a:hover {
+    text-decoration: underline;
+}
+/* 장바구니 */
+main > #cart > section {
+    border-top: 0;
+}
+#cart {
+    padding: 20px;
+}
+#cart > nav {
+    width: 100%;
+    height: 36px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #111;
+}
+#cart > nav > h1 {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+#cart > nav > p {
+    float: right;
+    margin-top: 10px;
+}
+#cart > nav > p > span {
+    font-weight: bold;
+}
+#cart form {}
+#cart form > table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #d3d3d3;
+}
+#cart form > table tr {}
+#cart form > table .empty {
+    display: none;
+}
+#cart form > table .empty > td {
+    padding: 50px 0;
+    text-align: center;
+    color: #777;
+    font-weight: bold;
+}
+#cart form > table tr > th {
+    padding: 12px 0;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+    font-size: 0.95em;
+}
+#cart form > table tr > th:first-child {
+    width: 60px;
+}
+#cart form > table tr > td {
+    text-align: center;
+}
+#cart form > table tr > td:first-child {
+    width: 60px;
+}
+#cart form > table tr > td > article img {
+    width: 80px;
+}
+#cart form > table tr > td > article {
+    overflow: hidden;
+}
+#cart form > table tr > td > article > a {
+    float: left;
+    display: inline-block;
+}
+#cart form > table tr > td > article h2 {}
+#cart form > table tr > td > article h2 > a {
+    
+}
+#cart form > table tr > td > article > div {
+    float: left;
+    margin-top: 10px;
+}
+#cart form > table tr > td > article > div a {
+    font-size: 15px;
+    font-family: 'Malgun Gothic', sans-serif;
+}
+#cart form > table tr > td > article p {
+    text-align: left;
+    color: #777;
+    margin-top: 4px;
+}
+#cart form > table tr > td {}
+#cart form > table tr > td {}
+#cart form > table tr:last-child > td:last-child {
+    color: #ff006c;
+    font-weight: bold;
+}
+#cart form > input {
+    margin-top: 6px;
+    padding: 6px 11px;
+    border-color: #bdbdbd;
+    border-bottom-color: #828282;
+    border-width: 1px;
+    background: #fafafa;
+}
+#cart > .info {
+    float: right;
+    width: 360px;
+    height: 412px;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+#cart > .info > h2 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 1px solid #111;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+#cart > .info > table {
+    width: 100%;
+}
+#cart > .info > table td {
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+#cart > .info > table tr > td:last-child {
+    text-align: right;
+}
+#cart > .info > table tr:last-child > td {
+    font-size: 20px;
+}
+#cart > .info > table tr:last-child > td:last-child {
+    color: #ff006c;
+    font-weight: bold;
+}
+#cart > .info > input {
+    width: 100%;
+    height: 56px;
+    font-size: 26px;
+    border-width: 1px;
+    border-color: #d81818;
+    border-bottom-color: #9e1212;
+    background: #ed2f2f;
+    color: #fff;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+/* 주문결제 */
+main > #order > section {
+    border-top: 0;
+}
+#order {
+    padding: 20px;
+}
+#order > nav {
+    width: 100%;
+    height: 36px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #111;
+}
+#order > nav > h1 {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+#order > nav > p {
+    float: right;
+    margin-top: 10px;
+}
+#order > nav > p > span {
+    font-weight: bold;
+}
+#order form {}
+#order form > div >  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #d3d3d3;
+}
+#order form > div > table tr {}
+#order form > div > table .empty {
+    display: none;
+}
+#order form > div > table tr > th {
+    padding: 12px 0;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+    font-size: 0.95em;
+}
+#order form > div > table tr > td {
+    text-align: center;
+}
+#order form > div > table tr > td > article img {
+    width: 80px;
+}
+#order form > div > table tr > td > article {
+    overflow: hidden;
+}
+#order form > div > table tr > td > article > a {
+    float: left;
+    display: inline-block;
+}
+#order form > div > table tr > td > article > div {
+    float: left;
+    margin-top: 10px;
+}
+#order form > div > table tr > td > article > div a {
+    font-size: 15px;
+    font-family: 'Malgun Gothic', sans-serif;
+}
+#order form > div > table tr > td > article p {
+    text-align: left;
+    color: #777;
+    margin-top: 4px;
+}
+#order form > div > table tr > td:last-child {
+    color: #ff006c;
+    font-weight: bold;
+}
+#order form > div > input {
+    margin-top: 6px;
+    padding: 6px 11px;
+    border-color: #bdbdbd;
+    border-bottom-color: #828282;
+    border-width: 1px;
+    background: #fafafa;
+}
+#order form > section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+#order form section > article {
+    width: 560px;
+    height: auto;
+    margin-bottom: 10px;
+}
+#order form article input {
+    color: #555;
+    font-weight: bold;
+    padding: 2px 0;
+}
+#order form article > h1 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px;
+    border-bottom: 1px solid #111;
+}
+#order form article div {
+    padding: 6px;
+    box-sizing: border-box;
+}
+#order form > div > table tr {
+    border-bottom: 1px solid #d3d3d3;
+}
+#order .delivery > div > label {
+    display: block;
+    padding: 4px 0;
+}
+#order .delivery > .user span {
+    margin-left: 10px;
+    color: #888;
+}
+#order .delivery > .address input[type=button] {
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    background-color: #F0F4F9;
+    border-color: #acc0e0;
+    color: #3371C9;
+}
+#order .delivery > .address input.addr {
+    width: 400px;
+}
+#order .discount > div > p {
+    float: left;
+}
+#order .discount > div >label {
+    float: right;
+}
+#order .discount > div > label > input[type=button] {
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    background-color: #F0F4F9;
+    border-color: #acc0e0;
+    color: #3371C9;
+}
+#order .discount > div > span {
+    display: block;
+    margin-top: 20px;
+    color: #888;
+}
+#order .payment > div {
+    margin-bottom: 10px;
+}
+#order .payment > div > span {
+    display: inline-block;
+    color: #3a85c8;
+    margin: 6px 0;
+}
+#order .payment > div label {
+    margin-right: 16px;
+}
+#order form section > article > div {
+    padding: 6px;
+    box-sizing: border-box;
+}
+#order form .alert {
+    width: 560px;
+    background-color: #f7f7f7;
+    padding: 6px;
+    padding-left: 20px;
+    color: #999;
+    box-sizing: border-box;
+}
+#order form .alert > ul {
+    list-style: inherit;
+}
+#order form .alert > ul > li {
+    line-height: 20px;
+}
+#order form .info {
+    position: absolute;
+    right: 0; top: 26px;
+    width: 360px;
+    height: 412px;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+#order form .info > h2 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 1px solid #111;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+#order form .info > table {
+    width: 100%;
+}
+#order form .info > table td {
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+#order form .info > table tr > td:last-child {
+    text-align: right;
+}
+#order form .info > table tr:last-child > td {
+    font-size: 20px;
+}
+#order form .info > table tr:last-child > td:last-child {
+    color: #ff006c;
+    font-weight: bold;
+}
+#order form .info > input {
+    width: 100%;
+    height: 56px;
+    font-size: 26px;
+    border-width: 1px;
+    border-color: #d81818;
+    border-bottom-color: #9e1212;
+    background: #ed2f2f;
+    color: #fff;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
 
 /* 푸터영역 */
 footer {
