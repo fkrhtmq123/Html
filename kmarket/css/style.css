@@ -567,6 +567,7 @@ main > #list > .paging > .next {}
 main > #list > .paging > .next > a:hover {
     text-decoration: underline;
 }
+
 /* view페이지 : 제품 상제 페이지 */
 #view {
     padding: 20px;
@@ -1250,6 +1251,7 @@ main > #order > section {
     box-sizing: border-box;
     margin-top: 10px;
 }
+
 /* 주문완료 */
 main > #order-complete > section {
     border-top: 0;
@@ -1479,6 +1481,234 @@ main > #order-complete > section {
     margin-left: -12px;
 }
 
+/* 상품검색 */
+#search > section {
+    border-top: 0;
+}
+#search {
+    padding: 20px;
+}
+#search > nav {
+    border-bottom: 1px solid black;
+}
+#search > nav > h1 {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0 0 9px;
+}
+#search > nav > p {
+    float: right;
+    margin-top: 5px;
+}
+#search > nav > p > span {
+    font-weight: bold;
+}
+#search > .detail_search {
+    width: 100%;
+    margin-top: 16px;
+    border: 1px solid #d7d7d7;
+}
+#search > .detail_search * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#search > .detail_search > h3 {
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 10px 15px;
+}
+#search > .detail_search > h3 > strong {
+    color: #d50c0d;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 6px;
+}
+#search > .detail_search > h3 > em {
+    color: #888;
+    font-size: 14px;
+}
+#search > .detail_search > h3 span {
+    color: #d50c0d;
+}
+#search > .detail_search > form {
+    padding: 10px 15px;
+    border-bottom: 1px solid #d7d7d7;
+}
+#search > .detail_search > form > span> input[type=text] {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #bbb;
+    padding: 0 10px;
+}
+#search > .detail_search > form > input[name=search] {
+    width: 180px;
+    height: 30px;
+    border: 1px solid #bbb;
+    padding: 0 10px;
+}
+#search > .detail_search > form > input[type=submit] {
+    width: 34px;
+    height: 32px;
+    padding: 0 5px;
+    font-weight: bold;
+    background: #d50c0c;
+    color: #fff;
+    border: 0;
+}
+#search > .detail_search > form > span {
+    float: right;
+    margin-top: 1px;
+}
+#search > .detail_search > form > span > label {
+    margin-right: 10px;
+}
+#search > .detail_search > p {
+    padding: 15px;
+    background: #f5f5f5;
+    color: #737373;
+}
+#search > .sort {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dfdfdf;
+    overflow: hidden;
+}
+#search > .sort > li {
+    float: left;
+    position: relative;
+    padding: 15px 0;
+}
+#search > .sort > li > a {
+    padding: 0 10px;
+    border-right: 1px solid #ddd;
+}
+#search > section {}
+#search > section > article {
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #ececec;
+}
+#search > section > article > ul {
+    height: 100%;
+    overflow: hidden;
+}
+#search > section > article > ul > li {
+    position: relative;
+    float: left;
+    height: 100%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+#search > section > article > ul > li:nth-of-type(1) {
+    width: 20%;
+    padding: 0;
+}
+#search > section > article > ul > li:nth-of-type(1) > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#search > section > article > ul > li:nth-of-type(1) img {
+    width: 100%;
+}
+#search > section > article > ul > li:nth-of-type(2) {
+    width: 40%;
+}
+#search > section > article > ul > li:nth-of-type(2) > h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+#search > section > article > ul > li:nth-of-type(2) > p > a:hover {
+    text-decoration: underline;
+}
+#search > section > article > ul .freeshipping {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: text-bottom;
+    width: 55px;
+    height: 13px;
+    background: url('../img/ico_freeshipping.gif') no-repeat;
+}
+#search > section > article > ul > li:nth-of-type(3) {
+    width: 20%;
+}
+#search > section > article > ul > li:nth-of-type(4) {
+    position: relative;
+    width: 20%;
+}
+#search > section > article > ul > li:nth-of-type(4) > h4 {
+    margin-bottom: 6px;
+}
+.badge {
+    font-size: 0;
+    width: 80px; height: 19px;
+    background-repeat: no-repeat;
+}
+h5.badge.power {
+    background-image: url(../img/ico_power_dealer.gif);
+}
+h5.badge.great {
+    background-image: url(../img/ico_great_seller.gif);
+}
+h5.badge.power.great {
+    background: url(../img/ico_power_dealer.gif) no-repeat, 
+    url(../img/ico_great_seller.gif) no-repeat 63px;
+    width: 160px;
+}
+#search > section > article > ul > li:nth-of-type(4) > h6 {
+    position: absolute;
+    left: 10px; bottom: 30px;
+    font-size: 11px;
+    background-image: url(../img/rating_star.png);
+    background-repeat: no-repeat;
+    background-position: 36px 0px;
+    background-size: auto 100%;
+}
+h6.rating.star1 {
+    width: 50px;
+}
+h6.rating.star2 {
+    width: 64px;
+}
+h6.rating.star3 {
+    width: 78px;
+}
+h6.rating.star4 {
+    width: 91px;
+}
+h6.rating.star5 {
+    width: 106px;
+}
+
+#search > .paging {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+#search > .paging > .prev {}
+#search > .paging > .prev > a:hover {
+    text-decoration: underline;
+}
+#search > .paging > .num {}
+#search > .paging > .num > a {
+    display: inline-block;
+    min-width: 14px;
+    margin: 0 2px;
+    padding: 8px 9px;
+    border: 1px solid #c4c4c4;
+}
+#search > .paging > .num > a:hover {
+    border-color: black;
+}
+#search > .paging > .num > a.on {
+    color: #fe434c;
+    font-weight: bold;
+}
+#search > .paging > .next {}
+#search > .paging > .next > a:hover {
+    text-decoration: underline;
+}
 
 /* 푸터영역 */
 footer {
