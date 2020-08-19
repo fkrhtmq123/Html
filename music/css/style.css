@@ -122,7 +122,6 @@ main > .content {
     height: auto;
     min-height: 500px;
     margin: 0 auto;
-    border: 1px solid blue;
 }
 main .string_instrument {
     position: relative;
@@ -132,17 +131,18 @@ main .string_instrument {
     padding: 0 15px;
     color: #fff;
     background: #111;
-    border: 1px solid red;
     box-sizing: border-box;
 }
 main .string_instrument > p {
+    position: absolute;
+    top: 35px;
     font-size: 30px;
     font-weight: bold;
-    margin-top: 30px;
 }
 main .string_instrument > span {
     display: block;
-    margin-top: 10px;
+    position: absolute;
+    top: 80px;
     font-size: 16px;
 }
 main .string_instrument > img {
